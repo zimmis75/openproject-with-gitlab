@@ -7,7 +7,7 @@ name: Docker Hub Release
 
 on:
   schedule:
-    - cron: '30 12 * * *'
+    - cron: '15 12 * * *'
   push:
     branches: [ "main" ]
     # Publish same ver tags as releases.
